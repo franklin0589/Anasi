@@ -1,0 +1,1 @@
+from mySpider.Shot.base import Shot

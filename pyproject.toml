@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mySpider"
+version = "0.1.1"
+description = "mySpider is a video creation tool that allows user to generate videos from text and images."
+readme = "README.md"
+dependencies = [
+    "moviepy",
+    "Pillow",
+    "rich",
+    "tqdm",
+    "pydub",
+]
+
